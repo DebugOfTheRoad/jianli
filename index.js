@@ -57,7 +57,7 @@ function end(e) {
     if(this.flag){
 
     oLis[this.prevsIndex].style.webkitTransform = "translate(0,0)";
-    oLis[this.prevsIndex].style.webkitTransition = "0.7s";
+    oLis[this.prevsIndex].style.webkitTransition = "0.2s";
     oLis[this.prevsIndex].addEventListener("webkitTransitionEnd",function(){
         this.style.webkitTransition = "";
         this.firstElementChild.id = "a"+this.index;
